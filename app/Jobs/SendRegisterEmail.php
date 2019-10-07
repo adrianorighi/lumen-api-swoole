@@ -16,7 +16,7 @@ class SendRegisterEmail extends Job
     public function handle()
     {
         $user = $this->user;
-        $text = strtr('hello :name, hope you like this demo', [':name' => $user->name]);
+        $text = strtr('Olá :name, bem vindo!', [':name' => $user->name]);
         app('mailer')->raw($text, function ($message) use ($user) {
             $message->to($user->email);
         });

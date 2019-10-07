@@ -1,1 +1,16 @@
-define({  "name": "lumen-api-demo",  "version": "0.1.0",  "description": "LUMEN API DEMO",  "title": "lumen api demo",  "url": "https://lumen.lyyw.info/api",  "sampleUrl": false,  "defaultVersion": "0.0.0",  "apidoc": "0.3.0",  "generator": {    "name": "apidoc",    "time": "2017-05-23T01:54:05.788Z",    "url": "http://apidocjs.com",    "version": "0.17.3"  }});
+define({
+  "name": "lumen-api-demo",
+  "version": "0.1.0",
+  "description": "LUMEN API DEMO",
+  "title": "lumen api demo",
+  "url": "https://adrianorighi.com",
+  "sampleUrl": false,
+  "defaultVersion": "0.0.0",
+  "apidoc": "0.3.0",
+  "generator": {
+    "name": "apidoc",
+    "time": "2019-10-07T15:31:05.046Z",
+    "url": "http://apidocjs.com",
+    "version": "0.17.7"
+  }
+});

@@ -20,10 +20,10 @@ $api->version('v1', [
         'cors',
         'serializer',
          //'serializer:array', // if you want to remove data wrap
-        'api.throttle',
+        // 'api.throttle',  // limit requests per time
     ],
-    // each route have a limit of 20 of 1 minutes
-    'limit' => 20, 'expires' => 1,
+    // each route have a limit of 20 of 1 minutes - if using throttle
+    // 'limit' => 20, 'expires' => 1,
 ], function ($api) {
     // Auth
     // login

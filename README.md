@@ -2,9 +2,7 @@
 
 This is a boilerplate for lumen 5.8. if you are using lumen to write REST api it will help you.
 
-This demo use `dingo/api`  `tymon/jwt-auth` `swoole` and write some easy APIs and PHPUNIT
-
-lumen5.x please look appropriate branch
+This demo use `dingo/api`  `tymon/jwt-auth` `swoole` and write some easy APIs and PHPUNIT.
 
 ## USEFUL LINK
 
@@ -14,9 +12,9 @@ lumen5.x please look appropriate branch
 - apidoc [apidocjs](http://apidocjs.com/)
 - rest api guidance [jsonapi.org](http://jsonapi.org/format/)
 - debug rest api [postman](https://www.getpostman.com/)
-- a good article [http://oomusou.io/laravel/laravel-architecture](http://oomusou.io/laravel/laravel-architecture/)
 - php lint [phplint](https://github.com/overtrue/phplint)
 - swoole [swoole](https://www.swoole.co.uk)
+- a good article [http://oomusou.io/laravel/laravel-architecture](http://oomusou.io/laravel/laravel-architecture/)
 
 ## USAGE
 
@@ -34,7 +32,7 @@ $ vim .env
 
 $ php artisan migrate
 $ php artisan db:seed
-$ generate api doc like this "apidoc -i App/Http/Controller/Api/v1 -o public/apidoc"
+$ generate api doc like this "apidoc -i app/Http/Controllers/Api/V1 -o public/apidoc"
 ```
 
 ## FAQ
@@ -100,7 +98,8 @@ I think default DataArray is good enough.
 
 ## TODO
 
-- [ ] phpunit
+- [ ] tests with phpunit
+- [ ] xdebug on Dockerfile
 
 ## License
 

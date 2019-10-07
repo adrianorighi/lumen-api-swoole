@@ -14,7 +14,7 @@
         "guzzlehttp/guzzle": "~6.0",
         "predis/predis": "^1.1",
         "palanik/lumen-cors": "dev-master",
-        "dingo/api": "^2.1",
+        "dingo/api": "^2.3",
         "liyu/dingo-serializer-switch": "~0.3",
         "swooletw/laravel-swoole": "^2.6"
     },
